@@ -12,7 +12,7 @@ Age: {self.age}
 ID: {self.id}
 """)
 object1=Employee()
-object1.name="Hanna"
-object1.age=21
-object1.id="4512"
+object1.name=input("Enter the name of the employee: ")
+object1.age=input("Enter the age of the employee: ")
+object1.id=input("Enter the ID of the employee: ")
 object1.details()
